@@ -1,10 +1,10 @@
-.width-100 {
+/* .width-100 {
   width: 100%;
-}
-.border-bottom-grey {
+} */
+/* .border-bottom-grey {
   border-bottom: 1px solid lightgrey;
-}
-@font-face {
+} */
+/* @font-face {
   font-family: 'PT Sans';
   font-style: italic;
   font-weight: 400;
@@ -27,7 +27,7 @@
   font-style: normal;
   font-weight: 700;
   src: local('PT Sans Bold'), local('PTSans-Bold'), url(https://fonts.gstatic.com/s/ptsans/v9/jizfRExUiTo99u79B_mh0O6tKA.ttf) format('truetype');
-}
+} */
 * {
   box-sizing: border-box;
 }
@@ -44,15 +44,15 @@ body {
 #root {
   width: 100%;
 }
-.App {
+/* .App {
   display: flex;
   align-items: center;
   flex-direction: column;
   background-color: #f1f1f1;
   color: #333;
   font-family: 'PT Sans', sans-serif;
-}
-.top-bar {
+} */
+/* .top-bar {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -71,13 +71,13 @@ body {
   color: #fff;
   letter-spacing: 1px;
   padding: 0 10px;
-}
-@media (min-width: 1280px) {
+} */
+/* @media (min-width: 1280px) {
   .top-bar .container {
     width: 1280px;
   }
-}
-.top-bar .container .container-left {
+} */
+/* .top-bar .container .container-left {
   display: flex;
   justify-content: none;
   align-items: center;
@@ -89,8 +89,8 @@ body {
   cursor: pointer;
   margin-right: 25%;
   font-weight: bold;
-}
-.top-bar .container .container-center {
+} */
+/* .top-bar .container .container-center {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,14 +101,14 @@ body {
 .top-bar .container .container-center span {
   cursor: pointer;
   margin-right: 5%;
-}
-.top-bar .container .container-center span:last-child {
+} */
+/* .top-bar .container .container-center span:last-child {
   margin-right: 0;
-}
-.top-bar .container .container-center span:hover {
+} */
+/* .top-bar .container .container-center span:hover {
   text-decoration: underline;
-}
-.top-bar .container .container-right {
+} */
+/* .top-bar .container .container-right {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -119,8 +119,8 @@ body {
 }
 .top-bar .container .container-right span {
   cursor: pointer;
-}
-.header {
+} */
+/* .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -144,8 +144,8 @@ body {
   flex: 8;
   text-align: center;
   color: #000;
-}
-.header span {
+} */
+/* .header span {
   align-self: flex-end;
   font-size: 11px;
   font-weight: bold;
@@ -159,12 +159,12 @@ body {
   text-align: right;
   margin-right: 25px;
   flex: 1;
-}
-.content-container {
+} */
+/* .content-container {
   display: flex; 
   flex-direction: column; 
   align-items: center;
-}
+} */
 .tabs {
   border-bottom: 1px solid lightgrey;
   display: flex;
