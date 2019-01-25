@@ -24,7 +24,4 @@ Card.propTypes = {
   })
 }
 
-
-// Make sure to include PropTypes.
-
 export default Card;
